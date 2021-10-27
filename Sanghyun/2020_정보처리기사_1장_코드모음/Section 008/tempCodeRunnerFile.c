@@ -1,9 +1,11 @@
 #include <stdio.h>
-main()
-{
-	int a = 50;
-	int* b;
-	b = &a;
-	*b = *b + 20;
-	printf("%d, %d", a, *b);
+main() {
+	int a[5], b = 1, sum = 0;
+	for (int i = 0; i < 5; i++) {
+		a[i] = b;
+		b *= 2;
+	}
+	for (int i = 0; i < 5; i += 2)
+		sum += *(a + i);
+	printf("%d", sum);
 }
