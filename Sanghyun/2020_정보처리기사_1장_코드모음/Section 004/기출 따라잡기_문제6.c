@@ -5,3 +5,7 @@ main()
 	result = a * 3 + b > d || c - b / a <= d && 1;
 	printf("%d\n", result);
 }
+
+// 5* 3 + 10 = 25 > 30 == false = 0
+// 15 - (10/5) = 13 <= 10  == false 0
+// 
