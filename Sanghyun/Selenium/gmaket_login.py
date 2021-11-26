@@ -16,21 +16,21 @@ class ShoppingOnInternet():
 
         
 
-    # 로그인 정보
-    # def login_tohomepage(self):
-    #     #로그인 정보 입력
-    #     id = 'Hyun6467'
-    #     pw = '1Q2W3E!!'
-    #     xpaths = {'id':"//input[@name='id']", 'pw': "//input[@name='pwd']" }
+    #로그인 정보
+    def login_tohomepage(self):
+        #로그인 정보 입력
+        id = 'Hyun6467'
+        pw = '1Q2W3E!!'
+        xpaths = {'id':"//input[@name='id']", 'pw': "//input[@name='pwd']" }
 
-    #     self.driver.find_element_by_class_name("link__usermenu").click()
+        self.driver.find_element_by_class_name("link__usermenu").click()
             
-    #     # 2. 로그인 정보 넣기
-    #     self.driver.find_element_by_xpath(xpaths['id']).send_keys(id)
-    #     self.driver.find_element_by_xpath(xpaths['pw']).send_keys(pw)
+        # 2. 로그인 정보 넣기
+        self.driver.find_element_by_xpath(xpaths['id']).send_keys(id)
+        self.driver.find_element_by_xpath(xpaths['pw']).send_keys(pw)
 
-    #     # 3. 로그인 버튼 클릭릭
-    #     self.driver.find_element_by_class_name("button_login").click()
+        # 3. 로그인 버튼 클릭릭
+        self.driver.find_element_by_class_name("button_login").click()
 
 
     #g마켓 브라우져 넣기
