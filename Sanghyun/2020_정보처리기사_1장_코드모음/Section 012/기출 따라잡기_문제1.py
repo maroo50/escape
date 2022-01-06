@@ -1,5 +1,7 @@
 class CharClass:
-    a = ["Seoul","Incheon","Kyonggi","Daejun","Daegu","Pusan"]
+    a = ["Seoul", "Incheon", "Kyonggi", "Daejun", "Daegu", "Pusan"]
+
+
 myVar = CharClass()
 str01 = ''
 for i in myVar.a:

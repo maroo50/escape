@@ -3,6 +3,8 @@ def calc(x, y):
     y /= 3
     print(x, y)
     return x
+
+
 a, b = 3, 12
 a = calc(a, b)
 print(a, b)
